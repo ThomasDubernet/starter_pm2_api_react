@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "name": "api",
+      "cwd": "./api/public",
+      "script": "php",
+      "args": "-S localhost:8080"
+    }, 
+    {
+      "name": "admin",
+      "cwd": "./admin",
+      "script": "yarn",
+      "args": "start",
+      "watch": true
+    },
+    {
+      "name": "client",
+      "cwd": "./client",
+      "script": "yarn",
+      "args": "start",
+      "watch": true
+    }
+  ]
+}
